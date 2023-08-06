@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.bracketSameLine": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 120,
+    "cucumberautocomplete.steps": [
+        "features/*.feature",
+        "steps/*.steps.js"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true
+}

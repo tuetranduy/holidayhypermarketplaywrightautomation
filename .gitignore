@@ -1,0 +1,11 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+reports/*.html
+reports/*.json
+reports/screenshots/*.png
+reports/screenshots/**/*.png
+/test-results/
+/playwright-report/
+/playwright/.cache/

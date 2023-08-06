@@ -1,0 +1,25 @@
+{
+  "name": "holidayhypermarketplaywrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -p default",
+    "test:debug": "npx cucumber-js -p default --tags @debug",
+    "report": "node ./htmlReportGenerator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuetranduy/holidayhypermarketplaywrightautomation/issues"
+  },
+  "homepage": "https://github.com/tuetranduy/holidayhypermarketplaywrightautomation#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.36.2"
+  },
+  "dependencies": {
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}
